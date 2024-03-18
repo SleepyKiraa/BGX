@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{77e31487-7693-4f69-9411-321f16445e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs">
+      <UniqueIdentifier>{0790e2a4-f1a8-43cb-ae1a-6981fe023a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs\Varus">
+      <UniqueIdentifier>{ba7543df-37b0-4baa-b6eb-4b258869e6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs\Xerath">
+      <UniqueIdentifier>{2ef4593d-9070-469b-8dd5-48d0cd3d67de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs\Vayne">
+      <UniqueIdentifier>{b65a6064-d241-454f-a598-456a377226f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs\Lux">
+      <UniqueIdentifier>{6ce0ee69-292e-44ee-a2e9-74203d0aa9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Champs\Yone">
+      <UniqueIdentifier>{ae17036c-5931-4199-ad3c-f477529d4595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Permashow.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceutils.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Varus.cpp">
+      <Filter>Quelldateien\Champs\Varus</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_sdk\clipper.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_sdk\plugin_sdk.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Xerath.cpp">
+      <Filter>Quelldateien\Champs\Xerath</Filter>
+    </ClCompile>
+    <ClCompile Include="Vayne.cpp">
+      <Filter>Quelldateien\Champs\Vayne</Filter>
+    </ClCompile>
+    <ClCompile Include="Lux.cpp">
+      <Filter>Quelldateien\Champs\Lux</Filter>
+    </ClCompile>
+    <ClCompile Include="Yone.cpp">
+      <Filter>Quelldateien\Champs\Yone</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Permashow.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceutils.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Varus.h">
+      <Filter>Quelldateien\Champs\Varus</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_sdk\clipper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_sdk\cpplinq.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_sdk\plugin_sdk.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Xerath.h">
+      <Filter>Quelldateien\Champs\Xerath</Filter>
+    </ClInclude>
+    <ClInclude Include="Vayne.h">
+      <Filter>Quelldateien\Champs\Vayne</Filter>
+    </ClInclude>
+    <ClInclude Include="Lux.h">
+      <Filter>Quelldateien\Champs\Lux</Filter>
+    </ClInclude>
+    <ClInclude Include="Yone.h">
+      <Filter>Quelldateien\Champs\Yone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
