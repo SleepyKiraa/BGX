@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{77083612-42e7-4b29-903d-993922fa6965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions">
+      <UniqueIdentifier>{2de538b8-c6bf-413e-9218-56e488f2291c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Ezreal">
+      <UniqueIdentifier>{5aceeaf9-53da-4b17-957a-f5c4ad084676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Ashe">
+      <UniqueIdentifier>{558a2ee4-ca60-4568-b8d8-2bc34e10919e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Jhin">
+      <UniqueIdentifier>{3bbe8bb2-310f-4010-bae5-775dcbfade18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Tristana">
+      <UniqueIdentifier>{b340bb08-7e70-4a05-bf65-f6161745cadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Orianna">
+      <UniqueIdentifier>{cb4f16f8-086d-4b68-b478-c2f921a0dcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Kaisa">
+      <UniqueIdentifier>{8437674d-dc44-4d45-b25f-ea2cb2e805bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Sivir">
+      <UniqueIdentifier>{d61a7ede-d17e-4905-9d2d-95f8520da57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Xerath">
+      <UniqueIdentifier>{9d399385-97ac-4877-a839-5c1478cf8d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Corki">
+      <UniqueIdentifier>{5ca2b800-5cfa-4b3a-a945-ff9cdc58d83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Yasuo">
+      <UniqueIdentifier>{2f93bec9-538a-4f51-8598-adbd64112a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Kalista">
+      <UniqueIdentifier>{d8659f01-3868-432a-aac1-0d0f70875bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Zeri">
+      <UniqueIdentifier>{71163750-e276-42db-bac8-5728f4dd1147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Twitch">
+      <UniqueIdentifier>{25d9d79b-d0c4-4164-a66f-267c94223ecf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="femboyutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Permashow.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ezreal.cpp">
+      <Filter>Champions\Ezreal</Filter>
+    </ClCompile>
+    <ClCompile Include="Ashe.cpp">
+      <Filter>Champions\Ashe</Filter>
+    </ClCompile>
+    <ClCompile Include="Jhin.cpp">
+      <Filter>Champions\Jhin</Filter>
+    </ClCompile>
+    <ClCompile Include="Tristana.cpp">
+      <Filter>Champions\Tristana</Filter>
+    </ClCompile>
+    <ClCompile Include="Orianna.cpp">
+      <Filter>Champions\Orianna</Filter>
+    </ClCompile>
+    <ClCompile Include="Kaisa.cpp">
+      <Filter>Champions\Kaisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugin_sdk\clipper.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugin_sdk\plugin_sdk.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Sivir.cpp">
+      <Filter>Champions\Sivir</Filter>
+    </ClCompile>
+    <ClCompile Include="Xerath.cpp">
+      <Filter>Champions\Xerath</Filter>
+    </ClCompile>
+    <ClCompile Include="Corki.cpp">
+      <Filter>Champions\Corki</Filter>
+    </ClCompile>
+    <ClCompile Include="Yasuo.cpp">
+      <Filter>Champions\Yasuo</Filter>
+    </ClCompile>
+    <ClCompile Include="Kalista.cpp">
+      <Filter>Champions\Kalista</Filter>
+    </ClCompile>
+    <ClCompile Include="Zeri.cpp">
+      <Filter>Champions\Zeri</Filter>
+    </ClCompile>
+    <ClCompile Include="Twitch.cpp">
+      <Filter>Champions\Twitch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="femboyutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Permashow.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ezreal.h">
+      <Filter>Champions\Ezreal</Filter>
+    </ClInclude>
+    <ClInclude Include="Ashe.h">
+      <Filter>Champions\Ashe</Filter>
+    </ClInclude>
+    <ClInclude Include="Jhin.h">
+      <Filter>Champions\Jhin</Filter>
+    </ClInclude>
+    <ClInclude Include="Tristana.h">
+      <Filter>Champions\Tristana</Filter>
+    </ClInclude>
+    <ClInclude Include="Orianna.h">
+      <Filter>Champions\Orianna</Filter>
+    </ClInclude>
+    <ClInclude Include="Kaisa.h">
+      <Filter>Champions\Kaisa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\clipper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\cpplinq.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\plugin_sdk.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Sivir.h">
+      <Filter>Champions\Sivir</Filter>
+    </ClInclude>
+    <ClInclude Include="Xerath.h">
+      <Filter>Champions\Xerath</Filter>
+    </ClInclude>
+    <ClInclude Include="Corki.h">
+      <Filter>Champions\Corki</Filter>
+    </ClInclude>
+    <ClInclude Include="Yasuo.h">
+      <Filter>Champions\Yasuo</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalista.h">
+      <Filter>Champions\Kalista</Filter>
+    </ClInclude>
+    <ClInclude Include="Zeri.h">
+      <Filter>Champions\Zeri</Filter>
+    </ClInclude>
+    <ClInclude Include="Twitch.h">
+      <Filter>Champions\Twitch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
